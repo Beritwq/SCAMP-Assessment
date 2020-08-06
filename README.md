@@ -1,1 +1,18 @@
 # SCAMP-Assessment
+  def fibonacci(n):
+    a = 0
+    b = 1
+    count = 0
+    if n <= 0:
+        print("Enter a positive integer")
+    elif n == 1:
+        print("Fibonacci sequence upto", n, ":")
+        print (a)
+    else:
+        print("Fibonacci sequece: ")
+        while count < n :
+            print(a)
+            nth = a+b
+            a = b
+            b =nth
+            count += 1
